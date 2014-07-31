@@ -1,0 +1,357 @@
+@import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);
+@import url(http://fonts.googleapis.com/css?family=Piedra);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
+
+body {
+	height: 100%;
+	width: 100%;
+}
+#header {	
+	height: 995px;
+	background: url('../images/wodback.jpg') fixed center no-repeat; 
+}
+#horde {
+	background: url('../images/hordesymbol.png') center no-repeat; 
+	display:none;
+	height: 250px;
+	margin-top: 250px;
+	animation: fadein 2s;
+}
+#perdition {
+	margin-top: 190px;
+}
+#perdition h1 {
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 70px;
+	text-align: center;
+	color: #a30000;
+}
+#perdition h2 {
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	color: white;
+}
+#chevron {
+	margin-top: 40px;
+	height: 40px;
+	text-align: center;
+}
+#chevron a {
+	text-decoration: none;
+	height:100%;
+}
+#chevron i {
+	font-size: 60px;
+	color: #23858e;
+}
+#jqNavBar {
+	display: none;
+	position: fixed;
+}
+.navbar-default {
+	background: url('../images/streamerstopbar.png') center no-repeat; 
+	background-size: cover;
+	background-color: #000000;
+	border-color: transparent;
+	width: 100%;
+}
+.navbar-default .navbar-text {
+	color: #23858e;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #5FE7F3;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #a30000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #a30000;
+	background-color: #242424;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #a30000;
+	background-color: #0f0f0f;
+}
+.navbar-default .navbar-link {
+	color: #23858e;
+}
+.navbar-default .navbar-link:hover {
+	color: #a30000;
+}
+ #navBarFont {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	padding-right: 55px;
+	text-align: right;
+}
+#perditionNav {
+	font-family: 'Uncial Antiqua', cursive;
+	text-decoration: none;
+	position: absolute;
+	font-size: 30px;
+	color: #a30000;
+	padding-top: 5px;
+	margin-left: 200px;
+}
+#killSec {
+	background: url('../images/nagrandwod.png') no-repeat;
+	background-size: contain;
+	background-color: #0f0f0f;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#killSec #mediaTitle {
+	margin-top: 80px;
+	font-size: 50px;
+	font-family: 'Piedra', cursive;
+	color: #5FE7F3;
+}
+.break {
+	background: url('../images/shadowLineBreak.png') center no-repeat;
+	background-size: cover;
+	height:10px;
+	margin-top: 25px;
+	margin-bottom:-25px;
+}
+.title {
+	font-family: 'Shadows Into Light', cursive;
+	padding-left: 0px;
+	font-size: 40px;
+	color: #a30000;
+	margin-top:50px;
+	margin-bottom:5px;
+}
+.postDate {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	margin-top: 75px;
+	height:100%;
+	text-align: right;
+	color:#fff;
+}
+.caption {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	margin-top:20px;
+	color: #fff;
+	font-size: 20px;
+}
+#garroshKill {
+	background: url('../images/blgarrosh.jpg') center no-repeat; 
+	background-size: contain;
+	height: 700px;
+}
+#player {
+	width:1057px; 
+	height:600px;
+}
+#paragonsKill {
+	background: url('../images/frenzyparagons.jpg') center no-repeat; 
+	background-size: contain;
+	height: 480px;
+}
+#players {
+	height: 1000px;
+	background: url('../images/shadowmoonvalleywod.png') no-repeat;
+	background-size: cover;
+	background-color: #0f0f0f;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#players #mediaTitle {
+	margin-top: 70px;
+	font-size: 50px;
+	font-family: 'Piedra', cursive;
+	color: #5FE7F3;
+}
+#genMargin {
+	padding-top: 80px;
+}
+#tanksDpsHealers {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 15px;
+}
+a.list-group-item {
+	color: black;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+	color: #fff;
+	font-size: 20px;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+	z-index: 2;
+	background-color: #242424;
+	border-color: transparent;
+}
+a:hover, a:focus {
+    color: #a30000;
+}
+#rosterNames {
+	position: relative;
+	display: block;
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #828282 70%);
+	background-image: linear-gradient(to bottom, #ffffff 0%, #828282 70%);
+}
+#streamers {
+	height: 1000px;
+	background: url('../images/streamerswod.png') no-repeat;
+	background-size: cover;
+	background-color: #0f0f0f;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#streamers #mediaTitle {
+	margin-top: 70px;
+	font-size: 50px;
+	font-family: 'Piedra', cursive;
+	color: #5FE7F3;
+}
+#streamersFont a:hover, a:focus{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #a30000;
+}
+a {
+	color: #5FE7F3;
+}
+#streamTopBar {
+	background: url('../images/streamerstopbar.png') center no-repeat; 
+	background-size: fit;
+	height: 40px;
+	width: 797px;
+}
+#sTopBarFont {
+	font-family: 'Open Sans', sans-serif;
+	color: #5FE7F3;
+	font-style: italic;
+	font-size: 20px;
+	float: left;
+	padding-top: 4px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+#statusStyle {
+	padding-right: 100px;
+}
+#streamersStyle {
+	padding-right: 127px;
+}
+#descriptionStyle {
+	padding-right: 200px;
+}
+.stream_row {
+	float: left;
+	background-image: url("http://www.methodwow.com/board/images/gradients/grey-up.png");
+	background-repeat: repeat-x;
+	background-color: #212121;
+	width: 797px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+.stream_status {
+	float: left;
+	padding-left: 5px;
+	width: 22%;
+	color: #a30000;
+}
+.online {
+	color: #4DE82B;
+}
+.offline {
+	color: #a30000;
+}
+.stream_user {
+	float: left;
+	width: 28%;
+}
+.stream_description {
+	float: left;
+	width: 35%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.stream_viewers {
+	float: right;
+	padding-right: 10px;
+}
+#parses {
+	height: auto;
+	background: url('../images/tanaanwod.png') no-repeat;
+	background-size: cover;
+	background-color: #0f0f0f;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#parses #mediaTitle {
+	margin-top: 70px;
+	font-size: 50px;
+	font-family: 'Piedra', cursive;
+	color: #5FE7F3;
+}
+#carouselPadding {
+	padding-top: 80px;
+	padding-bottom: 160px;
+}
+.carousel-inner > .item > a img{
+    width: 100%;
+    height:560px;
+}
+.carousel-indicators .active {
+	background-color: #a30000;
+}
+.carousel-indicators li {
+	border: 1px solid #a30000;
+}
+#carouselFont {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	margin-top:20px;
+	color: #5FE7F3;
+	font-size: 20px;
+}
+.red {
+	color: #a30000;
+}
+#contact {
+	height: 1000px;
+	background: url('../images/karaborwod.png') no-repeat;
+	background-size: cover;
+	background-color: #0f0f0f;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#contact #mediaTitle {
+	margin-top: 70px;
+	font-size: 50px;
+	font-family: 'Piedra', cursive;
+	color: #5FE7F3;
+}
+#contactPadding {
+	padding-top: 80px;
+	padding-bottom: 160px;
+}
+.contactContent {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	margin-top:20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
